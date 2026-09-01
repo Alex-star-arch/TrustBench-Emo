@@ -49,7 +49,8 @@ def parse_args():
     p = argparse.ArgumentParser(description="Run one TrustBench-Emo cell.")
     p.add_argument("--model", required=True, help="HuggingFace id or local path")
     p.add_argument("--kind", required=True,
-                   choices=["qwen2vl", "qwen2_5_vl", "qwen_text"],
+                   choices=["qwen2vl", "qwen2_5_vl", "qwen_text",
+                            "llama", "gemma", "causal", "llava"],
                    help="Model architecture kind")
     p.add_argument("--dataset", required=True, choices=["FER2013", "GoEmotions"],
                    help="Dataset name (affects perturbation + reporting)")
