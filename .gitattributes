@@ -1,0 +1,11 @@
+# Normalize line endings on checkout/commit for cross-platform collaboration.
+* text=auto
+
+# Binary assets: never normalize.
+*.pdf binary
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.bin binary
+*.safetensors binary

@@ -1,0 +1,37 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+
+# Benchmark run outputs (generated locally, NOT published)
+benchmark/results/
+results/
+outputs/
+runs/
+*.jsonl.tmp
+
+# Large / sensitive local assets — NEVER publish (unpublished paper & raw data)
+paper/
+data/
+*.pdf
+*.png
+*.jpg
+*.jpeg
+*.aux
+*.log
+*.toc
+*.out
+*.bbl
+*.blg
+*.synctex.gz
+
+# Local tooling / caches
+.tools/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+*.swp
